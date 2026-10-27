@@ -45,7 +45,7 @@ The proposed system follows these steps:
 
 ### Workflow Diagram
 
-![CataNet-B3 Workflow](images/Workflow.jpeg)
+![Workflow](Workflow.jpeg)
 
 ## Model Architecture
 
@@ -64,7 +64,7 @@ CataNet-B3 uses EfficientNet-B3 as its feature-extraction backbone. The architec
 
 ### Architecture Diagram
 
-![CataNet-B3 Architecture](images/Architecture.jpeg)
+![Architecture](Architecture.jpeg)
 
 ## Dataset
 
@@ -106,15 +106,15 @@ These values represent the project's reported experimental results and have not 
 
 **Training vs. Testing Accuracy**
 
-![Training vs Testing Accuracy](images/Training%20Vs%20Testing%20Accuracy%20Curve.jpeg)
+![Training Vs Testing Accuracy Curve](Training%20Vs%20Testing%20Accuracy%20Curve.jpeg)
 
 **Training vs. Testing Loss**
 
-![Training vs Testing Loss](images/Training%20Vs%20Testing%20Loss%20Curve.jpeg)
+![Training Vs Testing Loss Curve](Training%20Vs%20Testing%20Loss%20Curve.jpeg)
 
 **Confusion Matrix**
 
-![Confusion Matrix](images/Confusion%20Matrix.jpeg)
+![Confusion Matrix](Confusion%20Matrix.jpeg)
 
 ## Hardware Requirements
 
@@ -127,7 +127,7 @@ The project hardware includes:
 
 ### Hardware Setup
 
-![Hardware Setup](images/Hardware.jpeg)
+![Hardware](Hardware.jpeg)
 
 ## Technologies Used
 
@@ -148,7 +148,7 @@ The exact library versions and dependencies should be documented in a `requireme
 
 The smartphone acts as the image-capture and user-interface device, while the Raspberry Pi performs model inference. Both devices communicate through a local network.
 
-![System Architecture](images/System%20Architecture.jpeg)
+![System Architecture](System%20Architecture.jpeg)
 
 ## Repository Structure
 
@@ -181,42 +181,6 @@ CataNet-B3/
 
 This is a suggested structure. Include only the source files and folders that are actually available in your repository.
 
-## Setup and Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/<your-username>/<your-repository>.git
-cd <your-repository>
-```
-
-Create a Python virtual environment:
-
-```bash
-python -m venv .venv
-```
-
-Activate the environment.
-
-**Windows PowerShell**
-
-```powershell
-.venv\Scripts\Activate.ps1
-```
-
-**Linux / Raspberry Pi OS**
-
-```bash
-source .venv/bin/activate
-```
-
-If the repository includes a `requirements.txt` file matching the source code, install the dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-The complete project will require the actual source code, trained model or model-download instructions, dependencies, and interface files.
 
 ## Running the System
 
