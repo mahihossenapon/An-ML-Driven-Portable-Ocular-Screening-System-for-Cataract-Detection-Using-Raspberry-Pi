@@ -1,4 +1,4 @@
-# CataNet-B3: Raspberry Pi-Based Portable Cataract Screening System
+# Empowering Grassroots Eye Care: An ML-Driven Portable Ocular Screening System for Cataract Detection Using Raspberry Pi
 
 A machine-learning project exploring affordable, portable, and offline cataract screening using a smartphone camera and Raspberry Pi.
 
